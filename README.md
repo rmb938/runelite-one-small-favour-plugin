@@ -1,2 +1,2 @@
-# Example
-An example greeter plugin
+# One Small Favour
+You thought the quest was over?
