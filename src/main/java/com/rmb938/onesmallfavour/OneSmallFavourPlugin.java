@@ -103,7 +103,7 @@ public class OneSmallFavourPlugin extends Plugin {
             textWidget.setOnOpListener((JavaScriptCallback) callBack -> {
                 combatAchievementsDropDown.setHidden(true);
 
-                Widget combatAchievementsLayer = this.client.getWidget(717, 0);
+                Widget combatAchievementsLayer = this.client.getWidget(717, 1);
 //                combatAchievementsLayer.createChild(-1, WidgetType.LAYER); - crashes with java.lang.StackOverflowError: null, not sure how to use LAYER
 
                 Widget dailiesBackgroundSprite = combatAchievementsLayer.createChild(-1, WidgetType.GRAPHIC);
