@@ -13,6 +13,9 @@ repositories {
 def runeLiteVersion = 'latest.release'
 
 dependencies {
+    compileOnly 'org.jetbrains:annotations:24.0.1'
+    annotationProcessor 'org.jetbrains:annotations:24.0.1'
+
     compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
 
     compileOnly 'org.projectlombok:lombok:1.18.20'
@@ -22,6 +25,7 @@ dependencies {
     testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
     testImplementation group: 'net.runelite', name: 'jshell', version: runeLiteVersion
 }
+
 
 group = 'com.rmb938.onesmallfavour'
 version = '1.0-SNAPSHOT'
